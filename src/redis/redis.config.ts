@@ -1,8 +1,8 @@
 import { createClient } from 'redis';
 export default createClient({
-  password: 'tGdj3FLD7dfDQyuWoG63WNHI8fCC5tyW',
+  password: 'eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81',
   socket: {
-    host: 'redis-12971.c309.us-east-2-1.ec2.cloud.redislabs.com',
+    host: 'localhost',
     port: 12971,
   },
 });
